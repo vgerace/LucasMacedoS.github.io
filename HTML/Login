@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Login Aluno</title>
+
+</head>
+
+<body>
+
+	
+
+	<form>
+
+		<h1>Login do aluno:</h1><br/>
+
+		<fieldset>
+
+		<label for="email">Email:</label><br/>
+		<input type="email" name="email" id="email" method = "post" action=""><br/>
+
+		<label for="senha">Senha:</label><br/>
+		<input type="password" name="senha" id="senha" method = "post" action="">	<br/>
+
+		<input type="checkbox" name="Lembrar"> Lembrar de mim<br/>
+				
+		<input type="submit" name="enter">
+
+	</fieldset>
+
+		
+
+	</form>
+
+</body>
+
+</html>
