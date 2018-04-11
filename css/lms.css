@@ -11,11 +11,13 @@
     display: block;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
 }
+
 .navbar-default{
 
-    background-color: rgba(255,255,255,0.9);
+    background-color: #fff;
     height: 88px;
 }
 
@@ -28,6 +30,19 @@
 .navbar{
 
     margin-bottom: 0;
+    border-radius: 0;
+
+}
+
+div[name=img_curso] {
+
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    padding: 100px 0 115px;
 
 }
 
@@ -43,39 +58,59 @@
 
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+
+    color: #fdc800;
+    background-color: #fff
+
+}
+
 /**
  * Estilos gerais
  **/
 
 .featured-box .featured-content-holder{
 
-    padding: 1px 10px 5px 15px
+    padding: 8px 10px 0px 9px;
+    overflow: hidden;
+    background: #fff;
 
 }
 
 body{
 
-    background-color: #012148;
-
+    background:  #f5f5f5;
 }
 
-h2{
+h1{
     text-transform: capitalize;
-    text-align: left;
-    font-weight: 500;
-    margin-bottom: 25px;
-    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    color: #002147;
 }
 
 .content{
     margin: auto;
 }
 
-div[name=principal]{
+.titulo{
 
-    height: 550px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;;
 
 }
+
+.principal{
+
+    padding: 30px 30px 18px 40px;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 30px;
+
+}
+
 
 /*
  * Estilo tela de cadastro
@@ -232,4 +267,142 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
     transform: translateY(0px);
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
+}
+
+/*
+ * css tela de login
+ */
+
+ .form_login {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    opacity: 0.5    ;
+}
+
+.form_login:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.form_login:not(:hover) {
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.form_login:link {
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.login_page {
+  width: 360px;
+  padding: 2% 0 0;
+  margin: auto;
+
+}
+
+.dados_login {
+  margin: 15px 0 0;
+  color: #000;
+  font-size: 28px;
+  font-family: monospace;
+
+}
+
+.enter{
+    font-family: monospace;
+    text-transform: uppercase;
+    outline: 0;
+    background: #000;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.bk_login{
+    background-image:url(bk_login.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.box{
+    font-family: monospace;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/*
+ * css tela cadastro de curso 
+ */
+
+.form_curso {
+   position: relative;
+   z-index: 1;
+   background: #FFFFFF;
+   max-width: 360px;
+   margin: 0 auto 20px;
+   padding: 20px;
+   text-align: center;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   opacity: 1;    ;
+}
+
+.novo_curso {
+  width: 500px;
+  padding: 0% 0 0;
+  margin: auto;
+
+}
+
+.dados_novo_curso {
+  margin: 15px 0 0;
+  color: #000;
+  font-size: 20px;
+  font-family: monospace;
+
+}
+
+
+.enviar{
+   font-family: monospace;
+   text-transform: uppercase;
+   outline: 0;
+   background: #000;
+   width: 100%;
+   border: 0;
+   padding: 10px;
+   color: #FFFFFF;
+   font-size: 18px;
+   -webkit-transition: all 0.3 ease;
+   transition: all 0.3 ease;
+   cursor: pointer;
+}
+
+.box{
+   font-family: monospace;
+   outline: 0;
+   background: #f2f2f2;
+   width: 100%;
+   border: 0;
+   margin: 0 0 15px;
+   padding: 15px;
+   box-sizing: border-box;
+   font-size: 14px;
 }
