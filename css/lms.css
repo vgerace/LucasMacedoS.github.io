@@ -406,3 +406,60 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
    box-sizing: border-box;
    font-size: 14px;
 }
+
+/*
+ * Css diciplinas
+ */
+
+.form_disciplina {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    opacity: 1;    ;
+}
+
+.nova_disciplina {
+  width: 500px;
+  margin: auto;
+
+}
+
+.dados_nova_disciplina {
+  margin: 15px 0 0;
+  color: #000;
+  font-size: 18px;
+  font-family: monospace;
+
+}
+
+.descricao_curso {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 900px;
+    margin: 0 auto 50px;
+    padding: 45px;
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    opacity: 1;
+}
+
+strong{
+  margin: 15px 0 0;
+  color: #000;
+  font-size: 24px;
+  font-family: monospace;
+
+}
+
+.dados {
+  margin: 15px 0 0;
+  color: #000;
+  font-size: 18px;
+  font-family: monospace;
+}
