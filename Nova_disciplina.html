@@ -1,43 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
- 
+    <meta charset="utf-8" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-<body
-    <form>
-        name="Nova_disciplina"
-        action="Nova_disciplina"
-        method="post"
-
-
-        <label>Nome da disciplina:</label><br/></br>
-        <input 
-            type="text"
-            maxlength="30"
-            size="30"
-            placeholder="digite o nome da disciplina"></br>
-            </br>
-
-        <label>Descrição da nova disciplina:</label></br>
-
-        <textarea  rows="4" cols="50"
-         name="Descrição_discplina">
-        </textarea></br>
-        </br>
-
-       <label>Selecione o curso:</label>
-       <select  name="qual_curso"  required>
-            <option></option>
-            <option value="Curso1">curso 1</option>
-            <option value="Curso2">curso 2</option>
-            <option value="Curso3">curso 3</option>
-        </select></br
-
-        <input type="submit"
-            value="enviar"
-            style="height: 50px; width: 50px; left: 125; top: 125;">
-    </form>
+    <title>Cadastro de curso</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/lms.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header" color="blue">
+                    <a class="navbar-brand" name="navbarheader" href="#">FaculdadeNAME</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="navbar-subbrand"><a href="#">Home</a></li>
+                    <li class="active"><a href="#">Cursos</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>Cadastre-se</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <h2>CADASTRO DE DICIPLINA</h2>
+        <div class="container" name="cadastro">
+            <form name="Nova_disciplina" action="Nova_disciplina" method="post">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Nome da disciplina:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" placeholder="digite o nome da disciplina" maxlength="30" size="30">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Selecione o curso</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                        <option></option>
+                        <option value="Curso1">Curso1</option>
+                        <option value="Curso2">Curso2</option>
+                        <option value="Curso3">Curso3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Descrição da nova disciplina:</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea name="Descrição_discplina" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" name="GravarDiciplina" value="Gravar">
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
