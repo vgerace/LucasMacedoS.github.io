@@ -151,7 +151,7 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
 
 .container[name='cadastro'] {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #FFF;
     padding: 20px;
 }
 
