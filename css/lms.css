@@ -1,8 +1,9 @@
-/**
- *  Estilo barra de navegação
- */
+/* Importar fonte Google */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 
-.navbar-default .navbar-brand{
+ /*  Estilo barra de navegação */
+
+ .navbar-default .navbar-brand{
     color: #002147;
   }
 
@@ -233,3 +234,27 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
 }
+
+/* Detalhes do Curso */
+
+#dcursos {
+    color: #002147;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 45px;
+    text-transform: capitalize;
+}
+
+#dc {
+    background-color: #fff;
+}
+
+#dcp {
+    color: #444;
+}
+
+#dcimg {
+    max-width: 100%;
+    height: auto;
+}
+
