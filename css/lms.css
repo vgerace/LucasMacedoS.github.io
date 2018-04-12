@@ -1,8 +1,17 @@
+
 /**
  *  Estilo barra de navegação
  */
 
 .navbar-default .navbar-brand{
+
+/* Importar fonte Google */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+
+ /*  Estilo barra de navegação */
+
+ .navbar-default .navbar-brand{
+
     color: #002147;
   }
 
@@ -269,6 +278,34 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
     transition-delay: 0.3s;
 }
 
+
+=======
+
+/* Detalhes do Curso */
+
+#dcursos {
+    color: #002147;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 45px;
+    text-transform: capitalize;
+}
+
+#dc {
+    background-color: #fff;
+}
+
+#dcp {
+    color: #444;
+}
+
+#dcimg {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
 /*
  * css tela de login
  */
@@ -302,7 +339,11 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
 
 .login_page {
   width: 360px;
+
   padding: 0% 0 0;
+
+  padding: 2% 0 0;
+
   margin: auto;
 
 }
@@ -464,6 +505,7 @@ strong{
   font-family: monospace;
 }
 
+
 .index {
     position: relative;
     z-index: 1;
@@ -496,3 +538,4 @@ strong{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
