@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    	<!-- Icone -->
+	<link rel="apple-touch-icon" sizes="57x57" href="css/IMG/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="css/IMG/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="css/IMG/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="css/IMG/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="css/IMG/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="css/IMG/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="css/IMG/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="css/IMG/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="css/IMG/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="css/IMG/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="css/IMG/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="css/IMG/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="css/IMG/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+    
+    <meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro de Disciplina</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/lms.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header" color="blue">
+                      <a class="navbar-brand" name="navbarheader" href="Index.html">FILT</a>
+                </div>
+               <ul class="nav navbar-nav">
+                    <li class="navbar-subbrand"><a href="Index.html">Home</a></li>
+                    <li class="active"><a href="cursos.html">Cursos</a></li>
+		    <li class="navbar-subbrand"><a href="Nova_disciplina.html">Nova Disciplina</a></li>
+		    <li class="active"><a href="NovoCurso.html">Novo Curso</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>Cadastre-se</a></li>
+                    <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <h2>CADASTRO DE DISCIPLINA</h2>
+    </div>        
+        <div class="container" name="cadastro">
+            <form name="Nova_disciplina" action="Nova_disciplina" method="post">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Nome da disciplina:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" placeholder="digite o nome da disciplina" maxlength="30" size="30">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Selecione o curso</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                        <option></option>
+                        <option value="Curso1">Curso1</option>
+                        <option value="Curso2">Curso2</option>
+                        <option value="Curso3">Curso3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Descrição da nova disciplina:</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea name="Descrição_discplina" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" name="GravarDiciplina" value="Gravar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
