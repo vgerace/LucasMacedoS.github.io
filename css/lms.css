@@ -372,7 +372,7 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
 }
 
 .bk_login{
-    background-image:url(img/bk_login.jpg);
+    background-image:url(IMG/bk_login.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -534,7 +534,7 @@ strong{
 }
 
 .bk_index{
-    background-image:url(img/bk_index.jpg);
+    background-image:url(IMG/bk_index.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
