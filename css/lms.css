@@ -285,12 +285,16 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
 
 /* Detalhes do Curso */
 
-#dcursos {
-    color: #002147;
-    text-align: left;
-    font-weight: 500;
-    margin-bottom: 45px;
-    text-transform: capitalize;
+.fundo_curso {
+   position: relative;
+   z-index: 1;
+   background: #FFFFFF;
+   max-width: 360px;
+   margin: 0 auto 20px;
+   padding: 20px;
+   text-align: center;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   opacity: 1;  
 }
 
 #dc {
@@ -478,6 +482,16 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
   font-size: 18px;
   font-family: monospace;
 
+}
+
+/*
+  Descrição Cursos
+*/
+
+.bk_cursos {
+    background-image:url(IMG/bk_cursos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .descricao_curso {
