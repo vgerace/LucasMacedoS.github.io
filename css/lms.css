@@ -1,9 +1,19 @@
+
+/**
+ *  Estilo barra de navegação
+ */
+
+.navbar-default .navbar-brand{
+   color: #002147;
+}
+
 /* Importar fonte Google */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 
  /*  Estilo barra de navegação */
 
  .navbar-default .navbar-brand{
+
     color: #002147;
   }
 
@@ -271,6 +281,8 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
 }
 
 
+=======
+
 /* Detalhes do Curso */
 
 #dcursos {
@@ -293,6 +305,7 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
     max-width: 100%;
     height: auto;
 }
+
 
 
 /*
@@ -328,7 +341,11 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
 
 .login_page {
   width: 360px;
+
+  padding: 0% 0 0;
+
   padding: 2% 0 0;
+
   margin: auto;
 
 }
@@ -357,7 +374,7 @@ input[name="GravarDiciplina"]:focus, input[name="GravarDiciplina"]:hover {
 }
 
 .bk_login{
-    background-image:url(bk_login.jpg);
+    background-image:url(IMG/bk_login.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -490,11 +507,45 @@ strong{
   font-family: monospace;
 }
 
+
+.index {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 650px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    opacity: 0.5;
+
+    margin: 10px 0 0;
+    color: #000;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.index:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.index:not(:hover) {
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.bk_index{
+    background-image:url(IMG/bk_index.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 /* Disciplina curso*/
 
 .grade{
-	text-align: center; 
-	margin: 0 auto ;
+  text-align: center; 
+  margin: 0 auto ;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
     width: 65%;
     font-family: 'Roboto';
